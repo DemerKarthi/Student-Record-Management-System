@@ -102,7 +102,9 @@ function Register() {
     }
   }
 
-  const handleClose = () => setShow(false);
+  const handleClose = () =>{ setShow(false);
+    clearForm();
+   }
   const handleShow = () => setShow(true);
 
   return (
@@ -206,7 +208,7 @@ function Register() {
           )}
         </div>
 
-        <Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose} backdrop="true" >
           <Modal.Header closeButton>
             <Modal.Title>Edit Student Details</Modal.Title>
           </Modal.Header>

@@ -170,3 +170,13 @@ body {
 .modal-footer .btn-cancel:hover {
     background-color: #c82333;
 }
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(10px);
+    transition: opacity 0.3s ease;
+}
+
+.modal-backdrop.show {
+    opacity: 0.9;
+}

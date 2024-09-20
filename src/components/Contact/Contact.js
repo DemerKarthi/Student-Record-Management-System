@@ -39,8 +39,8 @@ function Contact() {
             <p>Address: Palangantham , Madurai ,TN</p>
             <p>Follow us on social media:</p>
             <ul className="list-unstyled">
-              <li><a href="https://www.linkedin.com/in/dhanakarthikeyan-p-541b76254/" className="social-link">Linked In</a></li>
-              <li><a href="https://github.com/DemerKarthi" className="social-link">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/dhanakarthikeyan-p-541b76254/" target='_blank' className="social-link">Linked In</a></li>
+              <li><a href="https://github.com/DemerKarthi" target='_blank' className="social-link">GitHub</a></li>
             </ul>
           </div>
         </div>
