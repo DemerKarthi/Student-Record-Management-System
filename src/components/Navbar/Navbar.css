@@ -1,0 +1,46 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar {
+    background: linear-gradient(to right, #0062cc, #004085); 
+    border-bottom: 2px solid #004085; 
+  }
+  
+  .navbar-brand h6 {
+    color: #ffffff; 
+    margin-left: 2rem; 
+    font-weight: 600;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path stroke="currentColor" stroke-width="2" d="M5 7h20M5 15h20M5 23h20"/></svg>');
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ffcc00;
+    border-bottom: 2px solid #ffcc00;
+  }
+  
+  .nav-link.active {
+    color: #ffcc00; 
+    font-weight: bold;
+    border-bottom: 2px solid #ffcc00;
+  }
+  

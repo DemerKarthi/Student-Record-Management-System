@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(to right, #c3d7f0, #ffffff);
+}
+
+.text-primary {
+  color: #007bff !important;
+}
+
+.text-info {
+  color: #17a2b8 !important;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.lead {
+  font-size: 1.25rem;
+}
+
+.list-unstyled {
+  font-size: 1rem;
+}
