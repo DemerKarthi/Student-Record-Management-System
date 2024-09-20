@@ -1,17 +1,15 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../config/db'); // Import the db configuration
+const db = require('../config/db');
 
-// Route to save student details
+
 router.post('/add-student', (req, res) => {
   const { Fname, Lname, Phone, Email } = req.body;
 
-  // Validate the input data
   if (!Fname || !Lname || !Phone || !Email) {
     return res.status(400).json({ error: 'All fields are required.' });
   }
 
-  // SQL query to insert data into student_details table
   const sql = 'INSERT INTO student_details (Fname, Lname, Phone, Email) VALUES (?, ?, ?, ?)';
   
   db.query(sql, [Fname, Lname, Phone, Email], (err, result) => {
@@ -21,7 +19,7 @@ router.post('/add-student', (req, res) => {
 
     res.status(201).json({
       message: 'Student details added successfully',
-      status: true, // Return the ID of the newly inserted row
+      status: true,
     });
   });
 });
